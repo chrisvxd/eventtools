@@ -1,12 +1,8 @@
 ==================
-Glamkit-eventtools
+eventtools
 ==================
 
-An event management application designed for the GLAM (Galleries, Libraries, Museums and Archives) sector. It is part of the `GLAMkit project <http://glamkit.org/>`_.
-
-View a full list of `GLAMkit components <http://docs.glamkit.org/components/>`_.
-
-It is a fork of the popular django-schedule app.
+Forked and tidied for purpose from glamkit-eventtools, based on django-schedule.
 
 Features:
 
@@ -17,3 +13,5 @@ Features:
  * Flexible calendar template tags
 
 Please read the `documentation <http://docs.glamkit.org/eventtools/>`_.
+
+To install requirements, run pip install -r REQUIREMENTS.txt in eventtools directory.
