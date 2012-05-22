@@ -230,7 +230,7 @@ class GeneratorModel(XTimespanModel):
                 continue            
 
             #OK, we're good to create the occurrence.
-            o = self.occurrences.create(event=self.event, start=start, _duration=self._duration)
+            o = self.occurrences.create(event=self.event, start=start, end=start + timedelta(minutes=self._duration))
 #            print "created %s" % o
             #implied generated_by = self
     
